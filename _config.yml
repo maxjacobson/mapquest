@@ -1,4 +1,13 @@
+# our site configuration
+
 title: mapquest!
 baseurl: http://maxjacobson.github.io/mapquest/
 
+# otherwise http://maxjacobson.github.io/mapquest/Gemfile would be included in the generated site
+exclude:
+- LICENSE
+- README.md
+- Gemfile
+- Gemfile.lock
+- Guardfile
 
