@@ -1,5 +1,7 @@
 # mapquest
 
+<http://maxjacobson.github.io/mapquest>
+
 A fun, elegant game to see how many countries you can name.
 
 ## contributing
@@ -18,6 +20,7 @@ A fun, elegant game to see how many countries you can name.
 
 * a clean map with all of the countries in the world, unlabeled
 * a text box to type in countries as you think of them (case insensitive)
+* when you match a country, it becomes labeled and you receive points
 * the option to zoom in on the map
 * a timer that starts when you start
 * an option to tweet/facebook how you did
