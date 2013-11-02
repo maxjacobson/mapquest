@@ -1,3 +1,8 @@
 $ ->
-  console.log "page ready"
+  $('.map').datamaps
+    fills:
+      defaultFill: 'lightblue'
+    geographyConfig:
+      popupOnHover: false
+      borderWidth: 1
 

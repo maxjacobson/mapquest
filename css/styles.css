@@ -370,6 +370,9 @@ header nav ul {
 header nav li {
   display: inline; }
 
+.map {
+  height: 400px; }
+
 footer {
   border-top: dashed black 1px;
   margin-top: 25px; }

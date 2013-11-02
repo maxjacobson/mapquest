@@ -51,6 +51,13 @@ Max here
 * I integrated [guard](https://github.com/guard/guard) to kind of emulate the rails asset pipeline for compiling Sass and CoffeeScript and serving the Jekyll site. Just run `bundle exec guard` and it does a whole lot of stuff.
 * The weird thing about having a Gemfile in your Jekyll site is that it will be included in the compiled site as an arbitrary text file on your server unless you specifically exclude it in the `_config.yml`. So, for example, because <https://github.com/mojombo/mojombo.github.io/blob/master/README.textile> isn't excluded, this is online: <http://tom.preston-werner.com/README.textile>. Which is, I guess, cool for a README?
 
+Max here looking at the world
+
+* explored some resources for making a map with [d3.js](http://d3js.org/).
+    * The founder of d3 wrote [a really amazing post](http://bost.ocks.org/mike/map/) about how he does it (with the help of [topojson](https://github.com/mbostock/topojson)
+    * Dan Schneiderman wrote [a more introductory blog post](http://www.schneidy.com/Tutorials/MapsTutorial.html) about where this kind of data comes from and how to use it with pure d3
+    * I found [datamaps](http://datamaps.github.io/), a js library that layers on top of d3 and topojson and makes it kind of insanely easy to make a bunch of kinds of maps. It might be the right thing to use but it honestly feels almost too easy. I made a gorgeous, interactive world map in like 2 seconds with it. It's a jquery plugin. It's designed for rapid prototyping of data visualization and I'm not sure how we'd contort it into the setting for a game but maybe we could. Maybe it won't be a good fit. I'm not sure!
+
 ### 2013-11-03
 
 Max here living the modular lyf
