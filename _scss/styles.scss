@@ -1,13 +1,7 @@
-body {
-  width: 500px;
-  margin: 0 auto;
-}
-
-.forkme {
-  position: absolute;
-  top: 0;
-  right: 0;
-  border: 0;
-}
-
+@import "libs/normalize";
+@import "colors";
+@import "layout";
+@import "forkme";
+@import "header";
+@import "footer";
 

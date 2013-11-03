@@ -1,0 +1,19 @@
+$background : #F2FFE5;
+$foreground : black  ;
+$link       : #0089C6;
+$linkhover  : #00B1FF;
+
+body {
+  background-color: $background;
+  color: $foreground;
+}
+
+a {
+  color: $link;
+  text-decoration: none;
+  &:hover {
+    color: $linkhover;
+    text-decoration: underline;
+  }
+}
+
