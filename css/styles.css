@@ -370,6 +370,12 @@ header nav ul {
 header nav li {
   display: inline; }
 
+.map {
+  font-size: 5em; }
+
+.guesser {
+  width: 100%; }
+
 footer {
   border-top: dashed black 1px;
   margin-top: 25px; }

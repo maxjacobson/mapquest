@@ -59,3 +59,8 @@ Max here living the modular lyf
 * Totally broke apart my layout to use [Jekyll includes](http://jekyllrb.com/docs/templates/#includes) which are basically just rails partials
 * Totally broke apart the css to use [Sass imports](http://sass-lang.com/guide#5)
 
+Max here adding lame gameplay mechanics
+
+* lol this game sucks but it meets the definition of the word
+
+
