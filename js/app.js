@@ -1,3 +1,6 @@
-$(document).ready(function() {
-  console.log("page ready");
-});
+(function() {
+  $(function() {
+    return console.log("page ready");
+  });
+
+}).call(this);

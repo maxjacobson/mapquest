@@ -7,8 +7,9 @@ A fun, elegant game to see how many countries you can name.
 ## contributing
 
 * fork and clone the repo
-* `gem install jekyll`
-* `jekyll serve --watch --baseurl /`
+* `bundle install`
+* head's up: [one gem](https://github.com/guard/guard-coffeescript#javascript-runtimes) depends on you having a javascript runtime such as node on your system
+* `bundle exec guard`
 * visit <http://localhost:4000> and check it out
 * find or open [an issue](https://github.com/maxjacobson/mapquest/issues)
 * start hacking
