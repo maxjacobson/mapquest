@@ -14,6 +14,7 @@ A fun, elegant game to see how many countries you can name.
 * find or open [an issue](https://github.com/maxjacobson/mapquest/issues)
 * start hacking
 * squash your commits and reference the relevant issue, then submit a pull request
+    * [this post](https://medium.com/code-adventures/a940ee20862d) by TJ Holowaychuk is a good explanation of the git conventions I want to try to follow
 
 ## goals
 
